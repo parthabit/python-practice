@@ -8,6 +8,7 @@ def fibonacci(n):
         seq.append(a)
         a, b = b, a+b
     return seq
+    
 
 def is_prime(n):
     if n < 2: return False
