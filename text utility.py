@@ -12,6 +12,8 @@ print("1.Word Count 2.Vowel Count 3.Reverse")
 choice = int(input("Choose option: "))
 text = input("Enter text: ")
 
+
+
 if choice == 1:
     print("Words:", word_count(text))
 elif choice == 2:
