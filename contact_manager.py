@@ -19,6 +19,8 @@ def search_contact(name):
     else:
         print("Contact not found.")
 
+
+
 def delete_contact(name):
     if name in contacts:
         del contacts[name]
