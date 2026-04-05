@@ -10,6 +10,8 @@ def convert_case(text, choice):
     else:
         return "Invalid choice!"
 
+
+
 def main():
     text = input("Enter text: ")
     print("Choose conversion:")
