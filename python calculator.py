@@ -12,6 +12,7 @@ def divide(a, b):
         return "Error! Division by zero."
     return a / b
 
+
 while True:
     print("\n--- Simple Calculator ---")
     print("1. Add")
