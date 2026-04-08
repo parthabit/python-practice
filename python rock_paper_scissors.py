@@ -12,6 +12,7 @@ def rock_paper_scissors():
         if user_choice not in choices:
             print("Invalid choice. Try again.")
             continue
+            
 
         computer_choice = random.choice(choices)
         print(f"Computer chose: {computer_choice}")
