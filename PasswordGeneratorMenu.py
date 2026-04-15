@@ -8,6 +8,7 @@ def generate_simple_password(length=8):
 def generate_strong_password(length=12):
     chars = string.ascii_letters + string.digits + string.punctuation
     return ''.join(random.choice(chars) for _ in range(length))
+    
 
 def generate_custom_password(length):
     chars = string.ascii_letters + string.digits + string.punctuation
