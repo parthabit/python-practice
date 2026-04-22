@@ -7,6 +7,7 @@ def generate_simple(length=8):
     return ''.join(random.choice(chars) for _ in range(length))
 
 def generate_strong(length=12):
+    
     chars = string.ascii_letters + string.digits + string.punctuation
     return ''.join(random.choice(chars) for _ in range(length))
 
