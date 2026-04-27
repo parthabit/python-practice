@@ -12,6 +12,7 @@ def random_story():
     action = random.choice(actions)
     obj = random.choice(objects)
     place = random.choice(places)
+    
 
     return f"{subject} {action} {obj} {place}."
 
