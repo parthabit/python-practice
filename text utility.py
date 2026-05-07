@@ -7,6 +7,7 @@ def vowel_count(text):
 
 def reverse_text(text):
     return text[::-1]
+    
 
 print("1.Word Count 2.Vowel Count 3.Reverse")
 choice = int(input("Choose option: "))
